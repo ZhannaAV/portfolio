@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Портфолио</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="портфолио Жанна Аниканова">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="author" content="Жанна Аниканова">
+</head>
+<body class="page">
+<header class="header centered-block">
+	<h1 class="centered-block"><a href="https://github.com/ZhannaAV" class="header__link" lang="ru" target="blank">Жанна Аниканова</a>
+	</h1>
+</header>
+<nav class="menu centered-block page__menu">
+	<a href="#frameworks" class="menu__link">Библиотеки JavaScript</a>
+	<a href="#practice" class="menu__link">Практика HTML, CSS и JavaScript</a>
+	<a href="#preprocess" class="menu__link menu__link_active">Проекты с SCSS, Gulp</a>
+</nav>
+<main class="content centered-block">
+	<article class="about centered-block">
+		Здесь я немного расскажу о скилах))) Учусь в <img class="about__logo" src="https://pictures.s3.yandex.net/logo_black.png"> по программе
+		веб-разработка и всё своё свободное время сейчас посвящаю следующему стеку технологий:
+	<ul class="about__list">
+		<li class="about__item">JS6, ООП</li>
+		<li class="about__item">HTML5, CSS3, SCSS</li>
+		<li class="about__item">Gulp, Webpack</li>
+		<li class="about__item">REACT</li>
+<!--		<li class="about__item">Node.js</li>-->
+	</ul>
+	</article>
+		<section id="frameworks">
+		<h2 class="content__title">Библиотеки JavaScript</h2>
+		<div class="flex-row flex-row_reversed flex-row_space_bottom">
+			<div class="flex-column flex-column_reversed">
+				<ul class="flex-row list">
+					<li class="project project_name_slider project_width_m project_height_m">
+						<a href="#" class="project__overlay">Слайдер</a>
+					</li>
+					<li class="project project_name_reactive project_width_m project_height_m">
+						<a href="#" class="project__overlay">React, Vue, Angular</a>
+					</li>
+				</ul>
+				<div class="project project_width_l project_height_m">
+					<iframe class="project__iframe project__iframe_border"
+					        src="https://zhannaav.github.io/baloon/index.html"></iframe>
+				</div>
+			</div>
+			<div class="project project_width_l project_height_xl">
+				<iframe class="project__iframe" src="https://zhannaav.github.io/procrastinate/Index.html" frameborder="false"
+				></iframe>
+			</div>
+		</div>
+	</section>
+	<section id="practice">
+		<h2 class="content__title">Практика HTML, CSS и JavaScript</h2>
+		<ul class="flex-row list flex-row_space_bottom">
+			<li class="project project_name_how-to-study project_width_m project_height_m">
+				<a href="https://zhannaav.github.io/how-to-learn/" class="project__overlay" target="_blank">CSS-анимации</a>
+			</li>
+			<li class="project project_name_across-russia project_width_l project_height_m">
+				<a href="https://zhannaav.github.io/russian-travel/" class="project__overlay" target="_blank">Адаптивная вёрстка</a>
+			</li>
+			<li class="project project_name_mesto project_width_m project_height_m">
+				<a href="https://zhannaav.github.io/mesto/" class="project__overlay" target="_blank">Приложение на JavaScript</a>
+			</li>
+		</ul>
+	</section>
+	<section id="preprocess">
+		<h2 class="content__title">Проекты c SCSS, Gulp</h2>
+		<ul class="flex-row list">
+			<li class="project project_name_music-album project_width_l project_height_l">
+				<a href="https://zhannaav.github.io/first-project/" class="project__overlay" target="blank"></a>
+			</li>
+			<!--<li class="project project_name_design-principles project_width_l project_height_l">
+				<a href="" class="project__overlay"></a>
+			</li>-->
+		</ul>
+	</section>
+</main>
+<footer class="footer centered-block">
+	<p class="footer__text">&copy; Жанна Аниканова</p>
+</footer>
+</body>
+</html>
