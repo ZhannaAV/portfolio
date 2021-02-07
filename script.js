@@ -3,8 +3,29 @@
 // iframe.contentWindow.location.reload();
 
 window.addEventListener('load', function () {
-    const aboutText = document.querySelector('.about')
-    TweenLite.to(aboutText, 4, {
-        opacity: 1,
-    })
+
+const article = document.querySelector(".about");
+const aboutText = document.querySelector('.about__text')
+let aboutTextCont = aboutText.textContent;
+aboutText.style.display = "none";
+let p = document.createElement('p');
+article.prepend(p);
+const aboutList = document.querySelector('.about__list');
+const aboutItems = Array.from(aboutList.children);
+console.log(aboutTextCont);
+
+
+//добавляет печать текста в блоке article
+for (let i = 0; i < aboutTextCont.length; i++) {
+    (function(i) {
+        setTimeout(function() {
+            // Created textNode to append
+            let text = document.createTextNode(aboutTextCont[i])
+            p.append(text);
+        }, 75 * i);
+    }(i));
+}
+//показывает стэк
+TweenLite.staggerTo(aboutItems, 4, {opacity: 1, delay:14}, 1);
+
 }, false);

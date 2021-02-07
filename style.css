@@ -3,6 +3,20 @@
   font-family: 'Cormorant Garamond';
 	background-color: #BBDFFF;
 	color: rgba(0, 0, 100, 1);
+	position: relative;
+	z-index: 0;
+}
+
+.page::before{
+	content: "";
+	width: 676px;
+	height: 330px;
+	box-sizing: border-box;
+	border: 2px solid white;
+	position: absolute;
+	top: 10px;
+	left: calc(50vw - 338px);
+	z-index: -1;
 }
 
 .page__menu {
@@ -84,7 +98,6 @@
 
 .menu__link + .menu__link {
   margin-left: 20px;
-
 }
 
 .menu__link:hover{
@@ -100,7 +113,6 @@
 	height: 16px;
 	display: inline-block;
 	vertical-align: bottom;
-
 }
 
 .content {
@@ -108,12 +120,18 @@
 	min-width: 1280px;
 }
 
-.about{
-	box-sizing: border-box;
+.about {
 	max-width: 662px;
-	opacity: 0;
 	color: rgba(0, 0, 100, .6);
+	min-height: 160px;
+}
 
+.about__list{
+	margin-bottom: 0;
+}
+
+.about__item{
+	opacity: 0;
 }
 
 .content__title {
