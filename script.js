@@ -7,7 +7,6 @@ window.addEventListener('load', function () {
 const article = document.querySelector(".about");
 const aboutText = document.querySelector('.about__text')
 let aboutTextCont = aboutText.textContent;
-aboutText.style.display = "none";
 let p = document.createElement('p');
 article.prepend(p);
 const aboutList = document.querySelector('.about__list');
