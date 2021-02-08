@@ -25,6 +25,6 @@ for (let i = 0; i < aboutTextCont.length; i++) {
     }(i));
 }
 //показывает стэк
-TweenLite.staggerTo(aboutItems, 4, {opacity: 1, delay:14}, 1);
+TweenLite.staggerTo(aboutItems, 3, {opacity: 1, delay:14}, .5);
 
 }, false);

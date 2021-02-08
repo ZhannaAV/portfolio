@@ -51,14 +51,17 @@
 	margin-left: 30px;
 	display: flex;
 	align-items: center;
+	transition: opacity .3s;
+}
 
+.header__frase:hover{
+	opacity: .6;
 }
 
 .header__link {
   font-size: 28px;
   text-decoration: none;
 	color: rgba(0, 0, 100, 1);
-
 }
 
 .header__link::after {
