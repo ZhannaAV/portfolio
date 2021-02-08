@@ -14,12 +14,12 @@
 	border: 2px solid grey;
 	position: absolute;
 	top: 10px;
-	left: calc(50vw - 345px);
+	left: calc(50% - 345px);
 	z-index: -1;
 }
 
-.page__menu {
-  margin: 0 auto;
+.page_centered {
+	margin: auto;
 }
 
 .list {
@@ -28,16 +28,11 @@
   margin: 0;
 }
 
-.centered-block {
-  margin: auto;
-}
-
 .header {
   height: 100px;
   display: flex;
 	justify-content: center;
-  max-width: 1330px;
-	min-width: 1280px;
+	max-width: 690px;
 }
 
 .header__avatar{
@@ -86,8 +81,7 @@
   min-height: 55px;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1330px;
-	min-width: 1280px;
+  max-width: 690px;
 	margin: 0 auto 20px;
 }
 
@@ -110,22 +104,21 @@
   text-decoration: underline;
 }
 
-.about__logo {
-	width: 98px;
-	height: 16px;
-	display: inline-block;
-	vertical-align: bottom;
-}
-
 .content {
 	max-width: 1330px;
-	min-width: 1280px;
 }
 
 .about {
 	max-width: 662px;
 	color: rgba(0, 0, 100, .6);
 	min-height: 160px;
+}
+
+.about__logo {
+	width: 98px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 .about__list{
@@ -148,7 +141,7 @@
 
 .flex-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -203,7 +196,7 @@
   height: 240px;
 }
 
-.project_name_music-album {
+.project_name_mavic {
   background-image: url(https://zhannaav.github.io/first-project/images/1.png);
 }
 
@@ -266,7 +259,6 @@
 	display: flex;
   justify-content: center;
   max-width: 1330px;
-	min-width: 1280px;
 }
 
 

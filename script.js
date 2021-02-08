@@ -18,7 +18,7 @@ console.log(aboutTextCont);
 for (let i = 0; i < aboutTextCont.length; i++) {
     (function(i) {
         setTimeout(function() {
-            // Created textNode to append
+           //создание textNode
             let text = document.createTextNode(aboutTextCont[i])
             p.append(text);
         }, 75 * i);
