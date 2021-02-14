@@ -12,6 +12,7 @@
 	height: 330px;
 	box-sizing: border-box;
 	border: 2px solid grey;
+	border-radius: 1px;
 	position: absolute;
 	top: 10px;
 	left: calc(50% - 345px);
@@ -200,8 +201,8 @@
   background-image: url(https://zhannaav.github.io/first-project/images/1.png);
 }
 
-.project_name_design-principles {
-  /*background-image: url();*/
+.project_name_game {
+  background-image: url(./image/game.png);
 }
 
 .project_name_slider {

@@ -4,7 +4,6 @@
     <list default="true" id="dbeebc05-82c4-4e49-b24f-8ac480a54b4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/dev/first-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Четыре правила вёрстки/index.html" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -51,7 +50,11 @@
       <workItem from="1606903476751" duration="827000" />
       <workItem from="1612525969580" duration="12966000" />
       <workItem from="1612616885974" duration="41961000" />
-      <workItem from="1612791115552" duration="5316000" />
+      <workItem from="1612791115552" duration="7479000" />
+      <workItem from="1612811310039" duration="14000" />
+      <workItem from="1612823023715" duration="1852000" />
+      <workItem from="1613070929919" duration="125000" />
+      <workItem from="1613253442894" duration="2334000" />
     </task>
     <servers />
   </component>
@@ -59,9 +62,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="369" y="37" key="FileChooserDialogImpl" timestamp="1612628351829">
+    <state x="369" y="37" key="FileChooserDialogImpl" timestamp="1612803452537">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="369" y="37" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612628351829" />
+    <state x="369" y="37" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612803452537" />
   </component>
 </project>
